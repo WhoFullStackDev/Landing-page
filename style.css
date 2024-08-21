@@ -121,6 +121,7 @@ header img {
 }
 
 .sponsor {
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,7 +180,7 @@ footer a {
   padding-top: 50px;
 }
 
-@media (min-width: 375px) {
+@media only screen and (min-width: 600px) {
   header {
     background-image: url("./images/bg-header-desktop.png");
     background-repeat: no-repeat;
